@@ -18,3 +18,10 @@ jobs:
 
         - name: Read file
           run: cat README.md
+
+        - name: Test Multiline cmd
+          run: |
+            echo "Testing cmd 1"
+            ls -al
+            echo "Testing cmd 2"
+            cat README.md
