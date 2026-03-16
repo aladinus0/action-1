@@ -25,3 +25,6 @@ jobs:
             ls -al
             echo "Testing cmd 2"
             cat README.md
+
+        - name: Generate ASCII  Artwork
+          run: cowsay -f dog "Awwwww Awwwww" > dog.txt
