@@ -1,4 +1,4 @@
-name: Generate ASCII Artwork
+name: Run Script
 
 on: push
 
@@ -10,4 +10,5 @@ jobs:
         run: ls -ltra
 
       - name: Running a script
+        chmod +x ascii-script.sh
         run: ./ascii-script.sh
