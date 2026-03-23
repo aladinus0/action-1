@@ -10,10 +10,9 @@ jobs:
       run: sudo apt-get install cowsay -y
 
     - name: Execute Cowsay cmd
-      run: cowsay -f dragon "Awssss Awssss" >> dragon.txt
+      run: cowsay -f dragon "Awssss Awssss im a dragon" >> dragon.txt
 
-    # - name: Sleep for 30 seconds
-    #   run: sleep 30
+
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
